@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "applicantName": "Мария Смирнова",
+    "applicantCategory": "инвалид I группы",
+    "equipmentName": "кресло-коляска активного типа",
+    "district": "Тверской",
+    "status": "в работе",
+    "priority": "срочная",
+    "requestDate": "2026-04-06",
+    "comment": "Кресло"
+  },
+  {
+    "id": 2,
+    "applicantName": "Алексей Громов",
+    "applicantCategory": "ребёнок-инвалид",
+    "equipmentName": "ходунки с регулировкой высоты",
+    "district": "Арбат",
+    "status": "новая",
+    "priority": "обычная",
+    "requestDate": "2026-04-10",
+    "comment": "Требуется предварительное согласование с законным представителем"
+  },
+  {
+    "id": 3,
+    "applicantName": "Ирина Волкова",
+    "applicantCategory": "инвалид II группы",
+    "equipmentName": "пандус складной алюминиевый",
+    "district": "Тверской",
+    "status": "выдано",
+    "priority": "обычная",
+    "requestDate": "2026-03-28",
+    "comment": "Средство выдано через пункт социальной поддержки"
+  }
+]
