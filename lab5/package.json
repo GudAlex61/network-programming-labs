@@ -1,0 +1,18 @@
+{
+  "name": "lab5-rehab-requests-frontend",
+  "version": "1.0.0",
+  "description": "Frontend для 5 лабораторной работы: XHR-запросы к API заявок на ТСР",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ЛР 5 | Заявки на ТСР</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="logo-item">
+                    <img src="img/mos.png" alt="Логотип" class="logo-img">
+                </li>
+                <li><a href="#" class="menu-link">Главная</a></li>
+                <li><a href="#" class="menu-link">Услуги</a></li>
+                <li><a href="#" class="menu-link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="root"></div>
+    </main>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+            <li><a href="#">Техподдержка</a></li>
+        </ul>
+    </footer>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
